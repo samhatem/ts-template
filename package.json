@@ -35,7 +35,7 @@
     "prebuild": "yarn clean",
     "build": "tsc --project tsconfig.production.json",
     "clean": "shx rm -rf ./lib",
-    "lint": "eslint --config ./.eslintrc.js --ignore-path ./.eslintignore ./src/**/*",
+    "lint": "eslint --config ./.eslintrc.js --ignore-path ./.eslintignore src",
     "prepack": "yarn test && yarn build",
     "test": "jest"
   }
