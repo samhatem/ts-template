@@ -26,5 +26,10 @@ module.exports = {
     "import/prefer-default-export": "off",
     "prefer-destructuring": "off",
     "prefer-template": "off",
+    "no-underscore-dangle": "off",
+    "max-classes-per-file": "off",
+    "no-param-reassign": "off",
+    "class-methods-use-this": "off",
+    "no-plusplus": "off",
   },
 };
